@@ -87,11 +87,8 @@ class HighwayEnv(AbstractEnv):
         :param action: the last action performed
         :return: the corresponding reward
         """
-        if self.road.network.get_lane(target_lane_index).is_reachable_from(self.position):
-                self.target_lane_index = target_lane_index
-    
 
-        if self.action_space<=1:
+        if self.action_type.space<=1:
         
             if self.action_type.get_available_actions()[0]==0:
                 return 0.5
