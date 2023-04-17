@@ -133,8 +133,8 @@ class AbstractEnv(gym.Env):
         :param action: the last action performed
         :return: the reward
         """
-        self.target_speed=0
-         self.position+=10
+        self.speed=-39
+        self.position+=10
         if self.action_space<=1:
         
           if self.action_type.get_available_actions()[0]==0:
