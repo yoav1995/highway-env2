@@ -29,7 +29,7 @@ class RoadObject(ABC):
         :param heading: the angle from positive direction of horizontal axis
         :param speed: cartesian speed of object in the surface
         """
-        self.road = road
+        ##self.road = road
         self.position = np.array(position, dtype=np.float64)
         self.heading = heading
         self.speed = speed

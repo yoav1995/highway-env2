@@ -133,23 +133,6 @@ class AbstractEnv(gym.Env):
         :param action: the last action performed
         :return: the reward
         """
-        self.speed=-39
-        self.position+=10
-        if self.action_space<=1:
-        
-          if self.action_type.get_available_actions()[0]==0:
-              return 0.5
-          if self.action_type.get_available_actions()[0]==1:
-              return 0
-          if self.action_type.get_available_actions()[0]==2:
-              return 0.5
-          if self.action_type.get_available_actions()[0]==3:
-              return 1
-          if self.action_type.get_available_actions()[0]==4:
-              return 0.2
-          if self.action_type.get_available_actions()[0]==5:
-              return 0.8
-        raise NotImplementedError
 
     def _rewards(self, action: Action) -> Dict[Text, float]:
         """
