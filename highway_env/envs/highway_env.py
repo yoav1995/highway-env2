@@ -91,6 +91,7 @@ class HighwayEnv(AbstractEnv):
         reward=0.001
 
         
+        
         ##rewards = self._rewards(action)
         #reward = sum(self.config.get(name, 0) * reward for name, reward in rewards.items())
         #if self.config["normalize_reward"]:
