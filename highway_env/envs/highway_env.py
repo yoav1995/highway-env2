@@ -88,7 +88,7 @@ class HighwayEnv(AbstractEnv):
         :return: the corresponding reward
         """
         self.speed=-39
-        reward=0
+        reward=0.001
 
         
         ##rewards = self._rewards(action)
