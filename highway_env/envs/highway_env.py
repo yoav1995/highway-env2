@@ -97,13 +97,13 @@ class HighwayEnv(AbstractEnv):
                 return 0.5
             if self.action_type.get_available_actions()[0]==1:
                 return 0
-             if self.action_type.get_available_actions()[0]==2:
+            if self.action_type.get_available_actions()[0]==2:
                 return 0.5
             if self.action_type.get_available_actions()[0]==3:
                 return 0.2
             if self.action_type.get_available_actions()[0]==4:
                 return 0.2
-             if self.action_type.get_available_actions()[0]==5:
+            if self.action_type.get_available_actions()[0]==5:
                 return 0.8
 
         
