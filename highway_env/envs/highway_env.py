@@ -87,11 +87,27 @@ class HighwayEnv(AbstractEnv):
         :param action: the last action performed
         :return: the corresponding reward
         """
-        self.speed=-39
-        reward=0.001
+         if self.road.network.get_lane(target_lane_index).is_reachable_from(self.position):
+                self.target_lane_index = target_lane_index
+    
+
+        if self.action_space<=1:
+        
+            if self.action_type.get_available_actions()[0]==0:
+                return 0.5
+            if self.action_type.get_available_actions()[0]==1:
+                return 0
+             if self.action_type.get_available_actions()[0]==2:
+                return 0.5
+            if self.action_type.get_available_actions()[0]==3:
+                return 0.2
+            if self.action_type.get_available_actions()[0]==4:
+                return 0.2
+             if self.action_type.get_available_actions()[0]==5:
+                return 0.8
 
         
-        
+
         ##rewards = self._rewards(action)
         #reward = sum(self.config.get(name, 0) * reward for name, reward in rewards.items())
         #if self.config["normalize_reward"]:
