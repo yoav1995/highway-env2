@@ -4,7 +4,7 @@ Follow next instructions for running our project:
 
 1.)
 open the next link:
-<a href="https://colab.research.google.com/github/yoav1995/highway-env2/blob/master/FinalProjectEdit_highway_planning.ipynb" rel="nofollow">
+"https://colab.research.google.com/github/yoav1995/highway-env2/blob/master/FinalProjectEdit_highway_planning.ipynb" 
 
 
 2.)
@@ -29,7 +29,7 @@ for best examing result run 15 scenarios at least
 
 4.)
 for comparing our edit with the original optimistic algorithm run 15 scenarios of the next project:
-<a href="https://colab.research.google.com/github/eleurent/highway-env/blob/master/scripts/highway_planning.ipynb" rel="nofollow">
+"https://colab.research.google.com/github/eleurent/highway-env/blob/master/scripts/highway_planning.ipynb"
 
 ***IMPORTANT***
 
