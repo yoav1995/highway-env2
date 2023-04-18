@@ -100,8 +100,8 @@ class ControlledVehicle(Vehicle):
             if self.road.network.get_lane(target_lane_index).is_reachable_from(self.position):
                 self.target_lane_index = target_lane_index
         elif action== "FADE":        
-             self.target_speed=0
-             self.position+=5
+             self.target_speed-=10
+             ##self.position+=5
              _from, _to, _id = self.target_lane_index
              target_lane_index = _from, _to, np.clip(_id - 1, 0, len(self.road.network.graph[_from][_to]) - 1)
              if self.road.network.get_lane(target_lane_index).is_reachable_from(self.position):
