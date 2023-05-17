@@ -39,5 +39,5 @@ env.config["vehicles_count"]=100
 env.reset()
 
 
-this project is based on the original project referenced at the CITATION file.
+**this project is based on the original project referenced at the CITATION file.**
 
