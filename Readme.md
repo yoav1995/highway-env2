@@ -1,4 +1,4 @@
-Welcome to our final project- Computer Science Degree
+##Welcome to our final project- Computer Science Degree
 
 Follow next instructions for running our project:
 
@@ -31,7 +31,7 @@ for best examing result run 15 scenarios at least
 for comparing our edit with the original optimistic algorithm run 15 scenarios of the next project:
 "https://colab.research.google.com/github/eleurent/highway-env/blob/master/scripts/highway_planning.ipynb"
 
-***IMPORTANT***
+**IMPORTANT**
 
 Make sure that the next details is configured before running the original project:
 env.config["duration"]=40
