@@ -1,4 +1,4 @@
-##Welcome to our final project- Computer Science Degree
+# Welcome to our final project- Computer Science Degree
 
 Follow next instructions for running our project:
 
