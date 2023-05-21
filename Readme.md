@@ -13,7 +13,8 @@ before running all scripts make sure your enviorment is set:
 
 
 
-our project prepares:
+**our project prepares:**
+
 env.config["offroad_terminal"]=True
 env.config["duration"]=40
 env.config["vehicles_count"]=100
