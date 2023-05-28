@@ -39,8 +39,11 @@ for comparing our edit with the original optimistic algorithm run 15 scenarios o
 **IMPORTANT**
 
 Make sure that the next details is configured before running the original project:
+
 env.config["duration"]=40
+
 env.config["vehicles_count"]=100
+
 env.reset()
 
 
